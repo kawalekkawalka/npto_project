@@ -4,7 +4,12 @@
  * and open the template in the editor.
  */
 package helloworld;
+/*
 
+JESTEM KODEM NOWEGO BRANCHA
+
+
+*/
 import java.util.Random;
 public class HelloWorld {
 
@@ -12,7 +17,7 @@ public class HelloWorld {
         Random generator = new Random();
         int tab[] = new int[100];
         for(int i = 0;i<100;i++){
-            tab[i] = generator.nextInt(1000);
+            tab[i] = generator.nextInt(100);
         }
         int bufor;
         for(int i = 0;i<100;i++){
